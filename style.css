@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open sans", sans-serif;
+    border: none;
+    outline: none;
+    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    max-height: 900px;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+.first-block {
+    padding: 50px 0 120px;
+    background: url('../imd/start-screen-puppy.png') no-repeat right,
+        url('../imd/start-screen-gradient-background.svg')
+}
+
+.logo img {
+    width: 184px;
+}
+
+.logo h6 {
+    color: #f8f6f6;
+    display: flex;
+    margin-top: -20px;
+}
+
+.about {
+    display: flex;
+    gap: 25px;
+    font-size: 12px;
+    max-width: 443px;
+    justify-content: space-between;
+
+}
+
+.main-hearding h1 {
+    max-width: 310px;
+    color: rgb(247, 239, 239);
+    font-size: 44px;
+    line-height: 120%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about a {
+    color: rgb(255, 255, 255);
+}
+
+.dop {
+    height: 2px;
+    display: flex;
+    box-shadow: 0 1px px rgb(255, 254, 254);
+    background: #F1CDB3;
+
+}
+
+.main-hearding {
+    margin-top: 110px;
+}
+
+.main-description h6 {
+    color: white;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.main-description {
+    display: flex;
+    margin-top: 30px;
+    width: 460px;
+}
+
+.main-button button {
+    display: flex;
+    font-size: 13px;
+    font-weight: 300px;
+    color: rgb(0, 0, 0);
+    background: #F1CDB3;
+    padding: 15px 45px;
+    border-radius: 100px;
+    transition: 0.5s ease-in;
+    margin-top: 25px;
+    margin-left: 350px;
+
+}
+
+.main-button button:hover {
+    cursor: pointer;
+    background-color: rgb(108, 226, 148);
+}
+
+
+.thirth {
+    /* Вирівнювання по верху */
+    width: 1200px;
+    height: 697px;
+    background: rgb(226, 218, 218);
+    margin-left: 200px;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 20px;
+    /* Додаємо відступ праворуч */
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.block .the {
+    width: 100%;
+    color: grey;
+}
+
+.block .the:first-child {
+    align-self: flex-start;
+    /* Вирівнювання першого елемента по лівому краю */
+    margin-left: auto;
+}
+
+.Friends {
+    display: flex;
+    font-size: 40px;
+    margin-left: 240px;
+}
+
+.animals {
+    display: flex;
+    width: 1200px;
+    height: 435px;
+    margin-top: 100px;
+}
+
+.pets {
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+    margin-left: 150px;
+    color: grey;
+    font-size: 20px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+}
+
+.e {
+    display: flex;
+    justify-content: center;
+}
+
+.main-b {
+    display: flex;
+    font-size: 13px;
+    font-weight: 300px;
+    padding: 20px 45px;
+    border-radius: 90px;
+    border: 2px solid #F1CDB3;
+}
+
+.t {
+    display: flex;
+    margin-left: 40px;
+}
+
+.der {
+    left: 700px;
+    align-items: end;
+}
+.funfc{
+    display: flex;
+    background: rgb(216, 219, 17);
+    width: 1200px;
+    height: 611px;
+    margin-left: 200px;
+}
+.Fr{
+    display: flex;
+    margin-left: 100px;
+}
+.help{
+    display: flex;
+    width: 1100px;
+    height: 431px;
+    background: rgb(224, 224, 202);
+    margin-top: 180px;
+    margin-left: 50px;
+    gap: 50px;
+}
+.Transportaion{
+    margin-top: 70px;
+}
+.Bowls_and_cups{
+    margin-top: 70px;
+}
+.Vitamins {
+    margin-top: 70px;
+}
+.Sleeping_areas{
+    margin-top: 70px;
+}
